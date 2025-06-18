@@ -1,0 +1,14 @@
+{
+    "name": "cerbos/demo-php-nginx",
+    "description": "A demo dockerized PHP composer application utilizing Cerbos deployed behind nginx proxy",
+    "type": "project",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Cerbos\\DemoPhpNginx\\": "src/"
+        }
+    },
+    "require": {
+        "cerbos/cerbos-sdk-php": "^1.8"
+    }
+}

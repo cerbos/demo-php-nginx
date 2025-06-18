@@ -1,0 +1,30 @@
+name: demo-php-nginx
+services:
+  nginx:
+    image: nginx:latest
+    restart: unless-stopped
+    volumes:
+      - ./deploy/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./src:/var/www/html/
+    ports:
+      - 8080:80
+
+  php-fpm:
+    build:
+      dockerfile: ./deploy/docker/php-fpm.Dockerfile
+      context: .
+    restart: unless-stopped
+  
+  cerbos:
+    image: ghcr.io/cerbos/cerbos:latest
+    command:
+      - "server"
+      - "--config"
+      - "/cerb/config.yaml"
+    restart: unless-stopped
+    environment:
+      - CERBOS_NO_TELEMETRY=1
+    volumes:
+      - ./deploy/cerbos:/cerb
+    ports:
+      - "3593:3593"

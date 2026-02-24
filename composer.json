@@ -9,6 +9,6 @@
     }
   },
   "require": {
-    "cerbos/cerbos-sdk-php": "v1.10.2"
+    "cerbos/cerbos-sdk-php": "v1.10.4"
   }
 }

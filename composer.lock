@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab5f0ef2de170752d11c917358765b54",
+    "content-hash": "c41fd23365cba3bbcb0d89511eca4709",
     "packages": [
         {
             "name": "brick/math",
@@ -68,16 +68,16 @@
         },
         {
             "name": "cerbos/cerbos-sdk-php",
-            "version": "v1.10.2",
+            "version": "v1.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cerbos/cerbos-sdk-php.git",
-                "reference": "4f943237b80f111b8d5cf03462e73a81fcfd00c3"
+                "reference": "ed993d3d8312827b0901d7a5c07998eaca35f4e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/4f943237b80f111b8d5cf03462e73a81fcfd00c3",
-                "reference": "4f943237b80f111b8d5cf03462e73a81fcfd00c3",
+                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/ed993d3d8312827b0901d7a5c07998eaca35f4e1",
+                "reference": "ed993d3d8312827b0901d7a5c07998eaca35f4e1",
                 "shasum": ""
             },
             "require": {
@@ -86,14 +86,14 @@
                 "google/common-protos": "^4.12",
                 "google/protobuf": "^v4.33",
                 "grpc/grpc": "^1.74",
-                "php": "^8.3 || ^8.4",
+                "php": "^8.4",
                 "ramsey/uuid": "^4.9"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.4",
                 "phpstan/phpstan": "^2.1",
-                "phpunit/phpunit": "^12.4",
-                "vimeo/psalm": "^6.13"
+                "phpunit/phpunit": "^12.5",
+                "vimeo/psalm": "^6.15"
             },
             "type": "library",
             "autoload": {
@@ -122,9 +122,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cerbos/cerbos-sdk-php/issues",
-                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.10.2"
+                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.10.4"
             },
-            "time": "2025-11-27T13:31:27+00:00"
+            "time": "2026-02-06T12:43:04+00:00"
         },
         {
             "name": "google/common-protos",

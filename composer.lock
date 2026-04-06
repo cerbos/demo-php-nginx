@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c41fd23365cba3bbcb0d89511eca4709",
+    "content-hash": "f44ff3c12ae0b5ebbe1eb97b66a811ce",
     "packages": [
         {
             "name": "brick/math",
@@ -68,16 +68,16 @@
         },
         {
             "name": "cerbos/cerbos-sdk-php",
-            "version": "v1.10.4",
+            "version": "v1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cerbos/cerbos-sdk-php.git",
-                "reference": "ed993d3d8312827b0901d7a5c07998eaca35f4e1"
+                "reference": "d3a528397622a993f6a0a5f75b6716300469f536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/ed993d3d8312827b0901d7a5c07998eaca35f4e1",
-                "reference": "ed993d3d8312827b0901d7a5c07998eaca35f4e1",
+                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/d3a528397622a993f6a0a5f75b6716300469f536",
+                "reference": "d3a528397622a993f6a0a5f75b6716300469f536",
                 "shasum": ""
             },
             "require": {
@@ -92,7 +92,7 @@
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.4",
                 "phpstan/phpstan": "^2.1",
-                "phpunit/phpunit": "^12.5",
+                "phpunit/phpunit": "^13.0",
                 "vimeo/psalm": "^6.15"
             },
             "type": "library",
@@ -122,9 +122,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cerbos/cerbos-sdk-php/issues",
-                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.10.4"
+                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.11.1"
             },
-            "time": "2026-02-06T12:43:04+00:00"
+            "time": "2026-04-03T12:49:24+00:00"
         },
         {
             "name": "google/common-protos",
@@ -187,23 +187,23 @@
         },
         {
             "name": "google/protobuf",
-            "version": "v4.33.1",
+            "version": "v4.33.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "0cd73ccf0cd26c3e72299cce1ea6144091a57e12"
+                "reference": "84b008c23915ed94536737eae46f41ba3bccfe67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/0cd73ccf0cd26c3e72299cce1ea6144091a57e12",
-                "reference": "0cd73ccf0cd26c3e72299cce1ea6144091a57e12",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/84b008c23915ed94536737eae46f41ba3bccfe67",
+                "reference": "84b008c23915ed94536737eae46f41ba3bccfe67",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=5.0.0 <8.5.27"
+                "phpunit/phpunit": ">=10.5.62 <11.0.0"
             },
             "suggest": {
                 "ext-bcmath": "Need to support JSON deserialization"
@@ -225,9 +225,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.1"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.6"
             },
-            "time": "2025-11-12T21:58:05+00:00"
+            "time": "2026-03-18T17:32:05+00:00"
         },
         {
             "name": "grpc/grpc",

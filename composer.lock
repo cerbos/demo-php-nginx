@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f44ff3c12ae0b5ebbe1eb97b66a811ce",
+    "content-hash": "62029906e1affdb99a0368ee9db23f24",
     "packages": [
         {
             "name": "brick/math",
@@ -68,25 +68,25 @@
         },
         {
             "name": "cerbos/cerbos-sdk-php",
-            "version": "v1.11.1",
+            "version": "v1.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cerbos/cerbos-sdk-php.git",
-                "reference": "d3a528397622a993f6a0a5f75b6716300469f536"
+                "reference": "316f980b75a85c9bc4076e48ac121f445f03b4a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/d3a528397622a993f6a0a5f75b6716300469f536",
-                "reference": "d3a528397622a993f6a0a5f75b6716300469f536",
+                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/316f980b75a85c9bc4076e48ac121f445f03b4a5",
+                "reference": "316f980b75a85c9bc4076e48ac121f445f03b4a5",
                 "shasum": ""
             },
             "require": {
                 "ext-grpc": "*",
                 "ext-json": "*",
                 "google/common-protos": "^4.12",
-                "google/protobuf": "^v4.33",
+                "google/protobuf": "^v5.0.0",
                 "grpc/grpc": "^1.74",
-                "php": "^8.4",
+                "php": "~8.4.0 || ~8.5.0",
                 "ramsey/uuid": "^4.9"
             },
             "require-dev": {
@@ -122,26 +122,26 @@
             ],
             "support": {
                 "issues": "https://github.com/cerbos/cerbos-sdk-php/issues",
-                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.11.1"
+                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.12.3"
             },
-            "time": "2026-04-03T12:49:24+00:00"
+            "time": "2026-06-01T16:53:32+00:00"
         },
         {
             "name": "google/common-protos",
-            "version": "4.12.4",
+            "version": "4.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/common-protos-php.git",
-                "reference": "0127156899af0df2681bd42024c60bd5360d64e3"
+                "reference": "f8e72f7b581702e7c3ee0776144f4974da172428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/common-protos-php/zipball/0127156899af0df2681bd42024c60bd5360d64e3",
-                "reference": "0127156899af0df2681bd42024c60bd5360d64e3",
+                "url": "https://api.github.com/repos/googleapis/common-protos-php/zipball/f8e72f7b581702e7c3ee0776144f4974da172428",
+                "reference": "f8e72f7b581702e7c3ee0776144f4974da172428",
                 "shasum": ""
             },
             "require": {
-                "google/protobuf": "^4.31",
+                "google/protobuf": "^4.31||^5.0",
                 "php": "^8.1"
             },
             "require-dev": {
@@ -181,29 +181,29 @@
                 "google"
             ],
             "support": {
-                "source": "https://github.com/googleapis/common-protos-php/tree/v4.12.4"
+                "source": "https://github.com/googleapis/common-protos-php/tree/v4.14.0"
             },
-            "time": "2025-09-20T01:29:44+00:00"
+            "time": "2026-04-09T21:01:46+00:00"
         },
         {
             "name": "google/protobuf",
-            "version": "v4.33.6",
+            "version": "v5.35.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protocolbuffers/protobuf-php.git",
-                "reference": "84b008c23915ed94536737eae46f41ba3bccfe67"
+                "reference": "d96ed77c7edaff3cd576a74173aa0b0655c87b1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/84b008c23915ed94536737eae46f41ba3bccfe67",
-                "reference": "84b008c23915ed94536737eae46f41ba3bccfe67",
+                "url": "https://api.github.com/repos/protocolbuffers/protobuf-php/zipball/d96ed77c7edaff3cd576a74173aa0b0655c87b1a",
+                "reference": "d96ed77c7edaff3cd576a74173aa0b0655c87b1a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1.0"
+                "php": ">=8.2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=10.5.62 <11.0.0"
+                "phpunit/phpunit": ">=11.5.0 <12.0.0"
             },
             "suggest": {
                 "ext-bcmath": "Need to support JSON deserialization"
@@ -225,9 +225,9 @@
                 "proto"
             ],
             "support": {
-                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v4.33.6"
+                "source": "https://github.com/protocolbuffers/protobuf-php/tree/v5.35.0"
             },
-            "time": "2026-03-18T17:32:05+00:00"
+            "time": "2026-05-19T22:13:40+00:00"
         },
         {
             "name": "grpc/grpc",

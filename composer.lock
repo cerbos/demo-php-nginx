@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14dff05441021ef6a73db81e67dfee34",
+    "content-hash": "44e04f2f30c0d06d0b82e3e9d2c393ca",
     "packages": [
         {
             "name": "brick/math",
@@ -68,16 +68,16 @@
         },
         {
             "name": "cerbos/cerbos-sdk-php",
-            "version": "v1.12.4",
+            "version": "v1.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cerbos/cerbos-sdk-php.git",
-                "reference": "bf6d6e2f4bbe0ce9da2fa6f6dedc848cab74d8f9"
+                "reference": "048bceebfd8769b8c3f6e04196985ecb5aca65dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/bf6d6e2f4bbe0ce9da2fa6f6dedc848cab74d8f9",
-                "reference": "bf6d6e2f4bbe0ce9da2fa6f6dedc848cab74d8f9",
+                "url": "https://api.github.com/repos/cerbos/cerbos-sdk-php/zipball/048bceebfd8769b8c3f6e04196985ecb5aca65dd",
+                "reference": "048bceebfd8769b8c3f6e04196985ecb5aca65dd",
                 "shasum": ""
             },
             "require": {
@@ -124,9 +124,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cerbos/cerbos-sdk-php/issues",
-                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.12.4"
+                "source": "https://github.com/cerbos/cerbos-sdk-php/tree/v1.13.0"
             },
-            "time": "2026-07-01T09:28:30+00:00"
+            "time": "2026-08-07T12:17:10+00:00"
         },
         {
             "name": "google/common-protos",
